@@ -1,0 +1,36 @@
+# Git
+.git
+.gitignore
+
+# Python
+__pycache__
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv
+env
+.venv
+
+# Django
+*.log
+db.sqlite3
+staticfiles
+media
+
+# IDE and OS
+.idea
+.vscode
+*.swp
+.DS_Store
+
+# Docs and local
+*.md
+!README.md
+.env
+.env.local
+report.txt
+QUICKSTART.md
+
+# Frontend (built separately)
+frontend
