@@ -6,6 +6,7 @@ export default defineConfig({
   server: {
     host: true, // Expose on all network interfaces (0.0.0.0)
     port: 3000,
+    allowedHosts: ['yupiterit.uz'],
     proxy: {
       '/api': {
         target: 'http://localhost:8000',
