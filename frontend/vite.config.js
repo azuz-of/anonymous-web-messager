@@ -9,11 +9,11 @@ export default defineConfig({
     allowedHosts: ['yupiterit.uz'],
     proxy: {
       '/api': {
-        target: 'http://localhost:8000',
+        target: 'http://yupiterit.uz',
         changeOrigin: true,
       },
       '/ws': {
-        target: 'ws://localhost:8000',
+        target: 'ws://yupiterit.uz',
         ws: true,
       },
     },
